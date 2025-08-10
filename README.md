@@ -1,6 +1,8 @@
 <h1 >Проект по автоматизации тестирования API для сайта <a href="https://reqres.in/">reqres.in</a></h1>
 
-![WB_logo.jpg](media/logo/reqres_logo.png)
+<p align="center">
+<img title="reqres" src="media/icons/reqres_logo.png">
+</p>
 
 ## :pushpin: Содержание:
 
