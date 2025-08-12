@@ -103,28 +103,28 @@ gradle clean test
 
 > В отчете по тестам присутствует развернутая информация по запросам и ответам.
 
-<img title="Allure Tests" src="media/screenshots/">
+<img title="Allure Tests" src="media/screenshots/AllureTests.png">
 </p>
 
 <a id="allure-testops"></a>
-## <img src="media/logo/Allure_TO.svg" width="25" height="25"/></a> Интеграция с [Allure TestOps]()
+## <img src="media/logo/Allure_TO.svg" width="25" height="25"/></a> Интеграция с [Allure TestOps](https://allure.autotests.cloud/project/4880/test-cases/39395?treeId=0)
 
 ### Основное окно
 
 <p align="center">
-<img title="Allure TestOps" src="media/screenshots/">
+<img title="Allure TestOps" src="media/screenshots/TestOpsMain.png">
 </p>
 
 ### Тест кейсы
 
 <p align="center">
-<img title="Allure TestOps" src="media/screenshots/">
+<img title="Allure TestOps" src="media/screenshots/TestOpsTests.png">
 </p>
 
 <a id="jira"></a>
-## <img src="media/logo/Jira.svg" width="25" height="25"/></a> Интеграция с [Jira]()
+## <img src="media/logo/Jira.svg" width="25" height="25"/></a> Интеграция с [Jira](https://jira.autotests.cloud/browse/HOMEWORK-1486)
 
 <p align="center">
-<img title="Jira" src="media/screenshots/">
+<img title="Jira" src="media/screenshots/Jira.png">
 </p>
 
