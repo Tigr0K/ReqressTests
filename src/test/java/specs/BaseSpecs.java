@@ -15,8 +15,8 @@ public class BaseSpecs {
             .log().all()
             .contentType("application/json");
 
-    public static ResponseSpecification returnResSpec(int expectedStatusCode){
-        return  new ResponseSpecBuilder()
+    public static ResponseSpecification returnResSpec(int expectedStatusCode) {
+        return new ResponseSpecBuilder()
                 .expectStatusCode(expectedStatusCode)
                 .log(STATUS)
                 .log(BODY)

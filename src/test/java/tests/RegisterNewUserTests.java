@@ -17,11 +17,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 
-
 @Owner("Yuferev")
 @Epic("Api test")
 @Feature("Registration tests")
-public class RegisterNewUserTests extends TestBase{
+public class RegisterNewUserTests extends TestBase {
 
     @Test
     @DisplayName("Регистрация нового пользователя")

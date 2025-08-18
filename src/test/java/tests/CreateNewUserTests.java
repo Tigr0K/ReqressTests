@@ -20,12 +20,12 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 @Owner("Yuferev")
 @Epic("Api test")
 @Feature("Create new user tests")
-public class CreateNewUserTests extends TestBase{
+public class CreateNewUserTests extends TestBase {
 
     @Test
     @DisplayName("Создание нового пользователя")
     void createNewUserTest() {
-        CreateNewUserRequestLombokModel createData = new CreateNewUserRequestLombokModel("morpheus","leader");
+        CreateNewUserRequestLombokModel createData = new CreateNewUserRequestLombokModel("morpheus", "leader");
 
         CreateNewUserResponseLombokModel response = step("Make tequest", () -> given(BaseSpecs.reqSpec)
                 .header("x-api-key", "reqres-free-v1")

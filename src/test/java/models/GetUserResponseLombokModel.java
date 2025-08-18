@@ -1,10 +1,12 @@
 package models;
+
 import lombok.Data;
 
 @Data
 public class GetUserResponseLombokModel {
     Data data;
     Support support;
+
     @lombok.Data
     public static class Data {
         private Integer id;
