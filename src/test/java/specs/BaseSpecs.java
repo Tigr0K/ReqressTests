@@ -13,9 +13,7 @@ public class BaseSpecs {
     public static RequestSpecification reqSpec = with()
             .filter(withCustomTemplates())
             .log().all()
-            .contentType("application/json")
-            .baseUri("https://reqres.in")
-            .basePath("/api");
+            .contentType("application/json");
 
     public static ResponseSpecification returnResSpec(int expectedStatusCode){
         return  new ResponseSpecBuilder()

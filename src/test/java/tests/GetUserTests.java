@@ -20,7 +20,7 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 @Owner("Yuferev")
 @Epic("Api test")
 @Feature("Get user tests")
-public class GetUserTests {
+public class GetUserTests extends TestBase{
 
     @Test
     @DisplayName("Получение одного пользователя позитивный")
